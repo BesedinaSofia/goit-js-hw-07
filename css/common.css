@@ -110,5 +110,143 @@ body {
   color: #2e2f42;
 }
 /*Task-4 */
+.inputarea {
+  display: block;
+  gap: 8px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  padding: 8px;
+  padding-left: 16px;
+}
+
+.inputarea:hover {
+  border: 1px solid #212121;
+}
+
+.inputarea:active {
+  border: 1px solid #808080;
+}
+
+.btn {
+  margin-top: 16px;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 86px;
+  height: 40px;
+
+  background: #4e75ff;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.btn:hover {
+  background: #6c8cff;
+}
 /*Task-5 */
+.widget {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+
+.change-color {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+
+  background: #4e75ff;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
 /*Task-6 */
+
+.background {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 486px;
+  max-height: 104px;
+  background: #f6f6fe;
+}
+
+.number {
+  border: 1px solid #808080;
+  border-radius: 8px;
+  padding: 8px 64px;
+  width: 150px;
+  height: 40px;
+  background: #f6f6fe;
+}
+
+.create,
+.destroy {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 148px;
+  height: 40px;
+
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #fff;
+}
+
+.create {
+  background: #4e75ff;
+}
+
+.destroy {
+  background: #ff4e4e;
+}
+
+.create:hover {
+  background: #6c8cff;
+}
+
+.destroy:hover {
+  background: #ff7070;
+}
+
+.backgroundbox {
+  margin-top: 16px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 3px;
+  border-radius: 8px;
+  padding: 32px;
+  max-width: 486px;
+  height: auto;
+  background: #f6f6fe;
+}
